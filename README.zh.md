@@ -1,3 +1,7 @@
+Repackage
+
+[![](https://jitpack.io/v/systembugtj/sweet-alert-dialog.svg)](https://jitpack.io/#systembugtj/sweet-alert-dialog)
+
 Sweet Alert Dialog
 ===================
 Android版的SweetAlert，清新文艺，快意灵动的甜心弹框

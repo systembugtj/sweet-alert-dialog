@@ -1,3 +1,7 @@
+Repackage
+
+[![](https://jitpack.io/v/systembugtj/sweet-alert-dialog.svg)](https://jitpack.io/#systembugtj/sweet-alert-dialog)
+
 Sweet Alert Dialog
 ===================
 SweetAlert for Android, a beautiful and clever alert dialog
