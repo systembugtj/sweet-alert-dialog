@@ -1,14 +1,17 @@
 apply plugin: 'com.android.library'
 
-version = VERSION_NAME
-group = GROUP
+group = 'com.github.systembugtj'
+version = "1.3.1"
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion versions.minSdkVersion
+        targetSdkVersion versions.targetSdkVersion
+        versionCode = 10
+        versionName = version
     }
 
     lintOptions {
@@ -17,7 +20,5 @@ android {
 }
 
 dependencies {
-    compile 'com.pnikosis:materialish-progress:1.0'
+    implementation 'com.pnikosis:materialish-progress:1.7'
 }
-
-apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
