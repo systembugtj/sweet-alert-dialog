@@ -12,8 +12,14 @@ android {
         targetSdkVersion versions.targetSdkVersion
         versionCode = 10
         versionName = version
+        consumerProguardFiles 'proguard-android.txt'
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    
     lintOptions {
         abortOnError false
     }
